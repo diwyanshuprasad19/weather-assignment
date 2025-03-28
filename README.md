@@ -27,7 +27,7 @@ The API stores location data (pincode, latitude, longitude) and weather data (te
 
 ### Step 1: Clone the Repository
 
-git clone <repository-url>
+git clone git@github.com:diwyanshuprasad19/weather-assignment.git
 cd weather_info
 
 ### Activate Virtual Environment
