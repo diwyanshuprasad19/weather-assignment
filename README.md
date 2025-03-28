@@ -27,34 +27,34 @@ The API stores location data (pincode, latitude, longitude) and weather data (te
 
 ### Step 1: Clone the Repository
 
-git clone git@github.com:diwyanshuprasad19/weather-assignment.git
-cd weather_info
+- git clone git@github.com:diwyanshuprasad19/weather-assignment.git
+- cd weather_info
 
 ### Activate Virtual Environment
 
 
-python -m venv env
-source env/bin/activate  # Linux / Mac
-.\env\Scripts\activate    # Windows
+- python -m venv env
+- source env/bin/activate  # Linux / Mac
+- .\env\Scripts\activate    # Windows
 
 ### Install Dependencies
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### Apply Migrations
 
-python manage.py makemigrations
-python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
 
 ### Run the Server
 
-python manage.py runserver
+- python manage.py runserver
 
 ### Making API Calls (Using Postman or CURL)
 
 Make a GET request to:
 
-http://127.0.0.1:8000/api/v1/weather/?pincode=411014&for_date=2020-10-15
+- http://127.0.0.1:8000/api/v1/weather/?pincode=411014&for_date=2020-10-15
 
 ## API Response Format (Example)
 
